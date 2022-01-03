@@ -81,3 +81,24 @@ h2{
 .education-ul{
     list-style-type: lower-greek;
 }
+
+.footer-cv{
+    min-height: 70px;
+    background-color: rgb(6, 90, 6);
+}
+.footer-wrapper{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1920px;
+    margin: 0 auto;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    tab-size: 16pt;
+    color: rgb(255, 174, 0);
+}
+.link:hover{
+    color: red;
+}

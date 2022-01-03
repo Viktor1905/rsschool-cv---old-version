@@ -22,7 +22,7 @@
     </header>
     <main>  
         <section class="info-about-me">
-            <img src="https://raw.githubusercontent.com/Viktor1905/juveliry-project/main/img/Photo.jpg" alt="Photo developer" class="avatar">
+            <img src="Photo.jpg" alt="Photo developer" class="avatar">
             <div class="info-about-me-wrapper">
             <h1 class="FIO">Viktor Vonyarkha</h1>
             <h2 class="proffesion">Junior Frontend Developer</h2>
@@ -32,8 +32,8 @@
             <h2 class="contacts-header">Contacts</h2>
             <ul class="contacts-ul">
                 <li class="contacts-info">Location: Rostov-on-Don, Russia</li>
-                <li class="contacts-info">Email:<a href="mailto:webdevva@gmail.com?subject=Предложение_о_работе">webdevva@gmail.com</a></li>
-                <li class="contacts-info">Github: <a href="https://github.com/Viktor1905">Viktor1905</a></li>
+                <li class="contacts-info">Email: <a href="mailto:webdevva@gmail.com?subject=Предложение_о_работе " class="link">webdevva@gmail.com</a></li>
+                <li class="contacts-info">Github: <a href="https://github.com/Viktor1905" class="link">Viktor1905</a></li>
                 <li class="contacts-info">Discord: KapJlcoH161 #8786 (Viktor1905 (@Viktor1905))</li>
             </ul>
         </section>
@@ -53,7 +53,11 @@
         </section>
         <section class="code main-wrapper" id="code">
             <h2 class="code-header">Code</h2>
-
+            <code>
+                function showMessage() { <br>
+                    alert('Вы кликнули по кнопке!')<br>
+                  } 
+            </code>
         </section>
         <section class="experience main-wrapper" id="experience">
             <h2 class="experience-header">Experience</h2>
@@ -70,12 +74,15 @@
             <h2 class="english-header">English</h2>
             <p>My English level is A2</p>
         </section>
-
-
-       
     </main>
-    <footer>
+    <footer class="footer-cv">
+        <div class="footer-wrapper">
+        <span>&#169 2022</span>
+        <a href="https://github.com/Viktor1905" class="footer-githublink link">Viktor1905</a>
+        <img src="https://rs.school/images/rs_school_js.svg" alt="logo" width="100px">
+        <a href="https://rs.school/js/" class="link">Nice course</a>
         
+        </div>
     </footer>
 </body>
 </html>
