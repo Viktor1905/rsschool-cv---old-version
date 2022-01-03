@@ -1,5 +1,5 @@
 # Vonyarkha Viktor 
-![photo](https://github.com/Viktor1905/juveliry-project/blob/main/img/Photo.jpg?raw=true)
+![Photo](https://user-images.githubusercontent.com/89303854/147971044-1ef0bad1-e709-4cde-a1d6-a95cb8a26edb.jpg)
 ## Contacts
 Phone: +7 (918) 859-17-67
 
