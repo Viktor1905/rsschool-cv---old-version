@@ -51,13 +51,14 @@ h2{
     margin: 0 0 20px 0;
     text-align: center;
 }
+.contacts-ul{
+    list-style-type:circle;
+}
 .contacts-info{
-    display: block;
+
     margin: 10px 0 0 0;
 }
-.contacts{
-    text-align: center !important;
-}
+
 .main-wrapper{
     border-bottom: 2px solid rgb(6, 90, 6);
     max-width: 1920px;
@@ -72,4 +73,11 @@ h2{
 }
 .skills-ul{
     list-style-type:upper-roman;
+}
+
+.code-example{
+    text-decoration: none;
+}
+.education-ul{
+    list-style-type: lower-greek;
 }
