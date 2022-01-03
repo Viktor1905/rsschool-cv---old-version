@@ -1,0 +1,18 @@
+.header-main{
+    background-color: rgb(6, 90, 6);
+    min-height: 70px;
+}
+.header-nav{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.header-nav-link{
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+}
+.header-nav-link:hover{
+    background-color: rgb(145, 255, 0);
+    color: red;
+}
