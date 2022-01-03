@@ -42,8 +42,15 @@ main{
 .FIO{
    text-transform: uppercase;
    border-bottom: 4px solid rgb(6, 90, 6);
-
+    font-size: 25pt;
 }
-.proffesion{
+h2{
     text-transform: uppercase;
+    font-size: 20pt;
+    margin: 0 0 20px 0;
+}
+.contacts-info{
+    display: block;
+    margin: 10px 0 0 0;
+    font-size: 15pt;
 }
